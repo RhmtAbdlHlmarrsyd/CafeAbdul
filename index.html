@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="/dist/css/lightbox.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+    
+
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -34,7 +37,7 @@
     </div>
   </div>
 </nav>
-
+<section id="Home">
 <div class="container-fluid banner align-items-center d-flex justify-content-center">
     <div class="container">
         <h1 class="text-light text-center display-5 mb-3">Selamat Datang di Kafe Abdul</h1>
@@ -84,7 +87,7 @@
 
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
                 <div class="card">
-                    <img src="https://cdn.shopify.com/s/files/1/0285/9650/2610/files/TCR-Latte_480x480.jpg?v=1721425826" class="card-img-top" alt="...">
+                    <img src="https://cdn.shopify.com/s/files/1/0605/3720/9012/files/Latte_Art_2_480x480.jpg?v=1676044714" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Latte</h5>
                         <p class="card-text">Campuran espresso dan susu lebih banyak sehingga menghasilkan rasa lembut dan ringan.</p>
@@ -176,7 +179,7 @@
             <!-- Card 3: Latte -->
             <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
                 <div class="card border-0 shadow-sm">
-                    <img src="https://cdn.shopify.com/s/files/1/0285/9650/2610/files/TCR-Latte_480x480.jpg?v=1721425826" class="card-img-top" alt="Steak" style="height: 210px; object-fit: cover;">
+                    <img src="https://cdn.shopify.com/s/files/1/0605/3720/9012/files/Latte_Art_2_480x480.jpg?v=1676044714" class="card-img-top" alt="Steak" style="height: 210px; object-fit: cover;">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold" style="color: #FFC107;">Latte</h5>
                         <p class="card-text text-muted small">Campuran espresso dan susu lebih banyak sehingga menghasilkan rasa lembut dan ringan.</p>
@@ -188,7 +191,7 @@
             <!-- Card 4: Americano -->
             <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
                 <div class="card border-0 shadow-sm">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8k20etqWBnkPRFmPHVi5qpPmnRP4-OP0mS-2mkQygtW4VnKQ7b8t_pW08&s=10" class="card-img-top" alt="Tofu Rice" style="height: 210px; https://halfsaints.com/cdn/shop/files/IMG-02fea26abfd4e944c7c6532c377f8477-V.jpg?v=1716208732&width=480object-fit: cover;">
+                    <img src="https://mbakerillc.com/wp-content/uploads/2024/08/iced-cream.jpg" class="card-img-top" alt="Tofu Rice" style="height: 210px; object-fit: cover;">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold" style="color: #FFC107;">Americano</h5>
                         <p class="card-text text-muted small">Espresso yang dicampur air panas menghasilkan rasa kopi lebih ringan namun tetap nikmat.</p>
@@ -294,7 +297,7 @@
         </div>
     </div>
 </div>
-
+<section id="Reservasi">
 <div class="container-fluid py-5">
     <div class="container">
 
@@ -375,16 +378,16 @@
 
             <div class="col-md-4 mb-3 mb-md-0">
                 <h5 class="fw-bold">Kafe Abdul</h5>
-                <p class="text-muted small">Tempat nongkrong yang enak, nyaman, dan terjangkau untuk semua kalangan.</p>
+                <p class="text-muted small">Tempat makan enak, nyaman, dan terjangkau untuk semua kalangan.</p>
             </div>
 
             <div class="col-md-4 mb-3 mb-md-0">
                 <h6 class="fw-bold mb-3">Navigasi</h6>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
-                    <li><a href="#" class="text-muted text-decoration-none">Produk</a></li>
-                    <li><a href="#" class="text-muted text-decoration-none">Promo</a></li>
-                    <li><a href="#" class="text-muted text-decoration-none">Reservasi</a></li>
+                    <li><a href="#Home" class="text-muted text-decoration-none">Home</a></li>
+                    <li><a href="#Produk" class="text-muted text-decoration-none">Produk</a></li>
+                    <li><a href="#Promo" class="text-muted text-decoration-none">Promo</a></li>
+                    <li><a href="#Reservasi" class="text-muted text-decoration-none">Reservasi</a></li>
                 </ul>
             </div>
             
@@ -403,7 +406,7 @@
         </p>
     </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
 <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
