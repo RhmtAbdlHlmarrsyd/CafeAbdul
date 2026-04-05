@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Abdul</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">Cafe Abdul</a>
+      <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="promo.html">Promo</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link active" href="keranjang.html"><i class="bi bi-cart"></i>Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Tabel Keranjang -->
+ <div class="container-fluid py-5">
+  <div class="container">
+    <h2 class="text-center my-5 text-light">Keranjang Belanja</h2>
+    <div class="table-responsive">
+        <table class="table table-dark">
+    <tr>
+        <th>Gambar</th>
+        <th>Pesanan</th>
+        <th>Harga</th>  
+        <th>Jumlah</th>  
+        <th>Total</th>
+    </tr>
+
+        <!--chocolatte drink-->
+        <tr style="vertical-align: middle" >
+        <td>
+                <a href="https://busycreatingmemories.com/wp-content/uploads/2014/12/belgian-hot-cocoa-1-of-1-2-480x480.jpg" 
+            data-lightbox="minuman" 
+            data-title="Chocolatte Drink">
+                <img src="https://busycreatingmemories.com/wp-content/uploads/2014/12/belgian-hot-cocoa-1-of-1-2-480x480.jpg" 
+            width="150px" 
+            alt="s s" 
+            class="img-thumbnail d-sm-block d-none">
+            <label class="d-block d-sm-none">Chocolatte Drink</label>
+            </a>
+        </td>
+        <td>Chocolatte Drink</td>
+        <td>Rp 17.000</td>
+        <td>2</td>
+        <td>Rp 34.000</td>
+        </tr>
+
+        <!--Lemon Tea-->
+      <tr style="vertical-align: middle" >
+        <td>
+                <a href="https://www.101caffe.ae/cdn/shop/files/lemon_icetea_belgusto_1.jpg?v=1757592501&width=480" 
+            data-lightbox="minuman" 
+            data-title="Chocolatte Drink">
+                <img src="https://www.101caffe.ae/cdn/shop/files/lemon_icetea_belgusto_1.jpg?v=1757592501&width=480" 
+            width="150px" 
+            alt="s s" 
+            class="img-thumbnail d-sm-block d-none">
+            <label class="d-block d-sm-none">Lemon Tea</label>
+            </a>
+        </td>
+        <td>Lemon Tea</td>
+        <td>Rp 6.000</td>
+        <td>2</td>
+        <td>Rp 12.000</td>
+        </tr>
+        <tr>
+
+          <!--Orange Juice-->
+       <tr style="vertical-align: middle" >
+        <td>
+                <a href="https://habibbakery.ae/cdn/shop/files/514A.png?v=1726508682&width=480" 
+            data-lightbox="minuman" 
+            data-title="Chocolatte Drink">
+                <img src="https://habibbakery.ae/cdn/shop/files/514A.png?v=1726508682&width=480" 
+            width="150px" 
+            alt="s s" 
+            class="img-thumbnail d-sm-block d-none">
+            <label class="d-block d-sm-none">Orange Juice</label>
+            </a>
+        </td>
+        <td>Orange Juice</td>
+        <td>Rp 11.000</td>
+        <td>1</td>
+        <td>Rp 11.000</td>
+        </tr>
+        <tr>
+
+          <!--Latte-->
+          <tr style="vertical-align: middle" >
+        <td>
+                <a href="https://cdn.shopify.com/s/files/1/0605/3720/9012/files/Latte_Art_2_480x480.jpg?v=1676044714" 
+            data-lightbox="minuman" 
+            data-title="Chocolatte Drink">
+                <img src="https://cdn.shopify.com/s/files/1/0605/3720/9012/files/Latte_Art_2_480x480.jpg?v=1676044714" 
+            width="150px" 
+            alt="s s" 
+            class="img-thumbnail d-sm-block d-none">
+            <label class="d-block d-sm-none">Latte</label>
+            </a>
+        </td>
+        <td>Latte</td>
+        <td>Rp 18.000</td>
+        <td>1</td>
+        <td>Rp 18.000</td>
+        </tr>
+        <tr>
+
+        <!--total-->
+        <th colspan="4">Total:</th>
+        <th>Rp 75.000</th>
+      </tr>
+        </table>
+        <button class="btn btn-warning bg-dark text-light checkout">Checkout</button>
+    </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+<script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
